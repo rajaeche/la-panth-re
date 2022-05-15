@@ -445,6 +445,17 @@ nav .caret {
   margin-bottom: 40px;
 }
 
+p {
+  font-size: 20px;
+}
+.text-center-description {
+  font-size: 14px;
+}
+
+.text-center img {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
 .btn {
   margin: 0 5px 5px 0;
 }
@@ -656,8 +667,12 @@ a {
   color: #575757 !important;
 }
 
+h2 {
+  font-size: 20px;
+}
+
 .container {
-  max-width: 1000px;
+  width: 100%;
 }
 
 .hero-bloc-text {
@@ -685,6 +700,7 @@ p {
 .tight-width-whitespace {
   max-width: 600px;
   margin: auto auto auto auto;
+  padding: 0;
 }
 
 .h1 {
@@ -719,9 +735,9 @@ h3 {
 }
 
 .med-width-whitespace {
-  max-width: 800px;
   margin: auto auto auto auto;
   box-shadow: 0px 0px 0px #000000;
+  width: 100%;
 }
 
 h1 {
@@ -739,6 +755,7 @@ h4 {
 
 .white {
   color: #ffffff !important;
+  font-size: 17px;
 }
 
 .portfolio-thumb {
@@ -755,13 +772,12 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
-  padding: 40px 40px 40px 40px;
+  background-color: #4d0600;
 }
 
 .bold-link {
   font-weight: 900;
-  text-decoration: underline !important;
+  text-decoration: none !important;
 }
 
 .bgc-white {
@@ -773,25 +789,29 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #4d0600;
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: white !important;
+  font-size: 24px;
 }
 
 .btn-atomic-tangerine {
-  background: #f3976c;
+  background: #4d0600;
   color: #ffffff !important;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
+  background: #4d0600 !important;
   color: #ffffff !important;
 }
 
 .ltc-white {
-  color: #ffffff !important;
+  color: #4d0600 !important;
+  background-color: white;
+  border-radius: 30px;
+  padding: 15px;
 }
 
 .ltc-white:hover {
@@ -799,7 +819,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-  color: #f3976c !important;
+  color: #4d0600 !important;
 }
 
 .ltc-atomic-tangerine:hover {
