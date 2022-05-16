@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
   background: url("img/texture-paper.png");
   background-size: 280px 280px;
+  opacity: 0.3;
 }
 
 .b-parallax {
@@ -133,7 +134,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: rgba(255, 255, 255, 0.6);
+  color: white;
 }
 
 .d-bloc .a-btn:hover,
@@ -284,7 +285,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-  font-size: 32px;
+  font-size: 45px;
+  font-weight: 800;
 }
 
 .navbar {
@@ -446,10 +448,7 @@ nav .caret {
 }
 
 p {
-  font-size: 20px;
-}
-.text-center-description {
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .text-center img {
@@ -660,8 +659,7 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
   font-family: "helvetica";
   font-weight: 400;
   color: #575757 !important;
@@ -669,6 +667,21 @@ a {
 
 h2 {
   font-size: 20px;
+}
+
+ul a {
+  color: white;
+}
+
+ul {
+  list-style: none;
+  font-weight: normal;
+  padding: 5px;
+}
+
+.col-sm-4 {
+  margin-top: 20px;
+  font-weight: bold;
 }
 
 .container {
@@ -691,10 +704,6 @@ h2 {
   font-weight: lighter;
   max-width: 520px;
   margin: auto auto auto auto;
-}
-
-p {
-  font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -720,6 +729,9 @@ p {
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
+  font-size: 10px;
+  text-decoration: none;
+  color: white;
 }
 
 h2 {
@@ -803,8 +815,8 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-  background: #4d0600 !important;
-  color: #ffffff !important;
+  background-color: white;
+  color: #4d0600 !important;
 }
 
 .ltc-white {
