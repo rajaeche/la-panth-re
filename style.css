@@ -452,6 +452,8 @@ p {
 }
 
 .text-center img {
+  width: auto;
+  height: auto;
   margin-top: 40px;
   margin-bottom: 30px;
 }
@@ -707,9 +709,8 @@ ul {
 }
 
 .tight-width-whitespace {
-  max-width: 600px;
-  margin: auto auto auto auto;
-  padding: 0;
+  width: 100%;
+  padding-top: 40px;
 }
 
 .h1 {
@@ -771,12 +772,17 @@ h4 {
 }
 
 .portfolio-thumb {
-  margin-bottom: 24px;
+  width: 100%;
+  margin: auto;
+  padding: 50px 50px 20px 50px;
 }
 
 .portfolio-row {
-  margin-bottom: 44px;
-  margin-top: 50px;
+  margin: auto;
+}
+
+.col-sm-6 {
+  padding: 0 70px 0 70px;
 }
 
 .avatar {
@@ -794,6 +800,11 @@ h4 {
 
 .bgc-white {
   background-color: #ffffff;
+}
+
+#bloc-0 {
+  position: fixed;
+  z-index: 2;
 }
 
 .bgc-dark-slate-blue {
