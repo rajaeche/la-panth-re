@@ -1,8 +1,13 @@
+/*
+-Contraste couleur
+-Disposition des éléments
+-Marges et padding
+*/
+
 body {
   margin: 0;
   padding: 0;
   background: #fff;
-  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -835,6 +840,8 @@ h4 {
   background-color: white;
   border-radius: 30px;
   padding: 15px;
+  margin-top: 70PX;
+  width: fit-content;
 }
 
 .ltc-white:hover {
@@ -867,7 +874,7 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
