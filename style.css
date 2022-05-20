@@ -24,14 +24,6 @@ a:hover {
   cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  z-index: 100000;
-  background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
-}
 
 .bloc {
   width: 100%;
@@ -110,7 +102,7 @@ a:hover {
 }
 
 .d-bloc button:hover {
-  color: rgba(255, 255, 255, 0.9);
+  color: #aab4ef;
 }
 
 .d-bloc .icon-round,
@@ -343,14 +335,6 @@ a:hover {
   background: transparent;
 }
 
-.navbar-toggle {
-  margin: 10px 10px 0 0;
-  border: 0px;
-}
-
-.navbar-toggle:hover {
-  background: transparent !important;
-}
 
 .navbar-toggle .icon-bar {
   background-color: rgba(0, 0, 0, 0.5);
@@ -419,7 +403,7 @@ nav .caret {
   margin: 0 5px;
 }
 
-.dropdown-menu .dropdown-menu {
+/*.dropdown-menu .dropdown-menu {
   top: -8px;
   left: 100%;
 }
@@ -439,7 +423,7 @@ nav .caret {
   border-bottom-color: transparent;
   margin: 6px -5px 0 0 !important;
   float: right;
-}
+}*/
 
 .mg-md {
   margin-top: 10px;
@@ -728,9 +712,24 @@ ul {
   color: #ffffff !important;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
+  border-radius: 25px;
+  width: auto;
   font-size: 16px;
   font-weight: 700;
 }
+
+.col-sm-12 .contact{
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.col-sm-6-contact p{
+  font-size: 14px;
+  margin: 40px;
+  padding: 10px;
+}
+
 
 .social {
   max-width: 400px;
@@ -796,7 +795,7 @@ h4 {
 }
 
 .black-background {
-  background-color: #4d0600;
+  background-color: #364577;
 }
 
 .bold-link {
@@ -818,7 +817,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #4d0600;
+  background-color: #364577;
 }
 
 .tc-white {
@@ -827,17 +826,17 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-  background: #4d0600;
+  background: #364577;
   color: #ffffff !important;
 }
 
 .btn-atomic-tangerine:hover {
-  background-color: white;
-  color: #4d0600 !important;
+  background-color: #aab4ef;
+  color: white !important;
 }
 
 .ltc-white {
-  color: #4d0600 !important;
+  color: #364577 !important;
   background-color: white;
   border-radius: 30px;
   padding: 15px;
@@ -850,16 +849,20 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-  color: #4d0600 !important;
+  color: #364577 !important;
 }
 
 .ltc-atomic-tangerine:hover {
-  color: #c27956 !important;
+  color: #364577 !important;
 }
 
 .icon-dark-slate-blue {
   color: #364577 !important;
   border-color: #364577 !important;
+}
+
+.social :hover{
+  color: white;
 }
 
 .bg-dots-bg {
