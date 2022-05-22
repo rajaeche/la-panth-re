@@ -1,10 +1,13 @@
 <!DOCTYPE html>
+<!--Changement Langue-->
 <html lang="fr">
 
 <head>
   <meta charset="utf-8" />
+  <!--Ajout keywords-->
   <meta name="keywords"
     content="agence design, agence design Lyon, site web, agence web design, agence web, agence design Lyonnaise, entreprise web design Lyon" />
+  <!--Ajout description-->
   <meta name="description"
     content="La Panthère est une agence web design basée à Lyon (2 place Sathonay 69001 Lyon
       Ouvert de 9h à 18h, du lundi au vendredi) qui propose des services de création de site web pour vos activités professionnelles" />
@@ -13,8 +16,6 @@
   <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
-  <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
-
   <script src="./js/jquery-2.1.0.js" defer></script>
   <script src="./js/bootstrap.js" defer></script>
   <script src="./js/blocs.js" defer></script>
@@ -37,41 +38,19 @@
       <div class="container bloc-sm">
         <nav class="navbar row">
           <div class="navbar-header">
-            <!--Div à supprimer
-              <div class="keywords" style="color: #cccccc; font-size: 1px">
-                Agence web à paris, stratégie web, web design, illustrations,
-                design de site web, site web, web, internet, site internet, site
-              </div> -->
+            <!--Div supprimé-->
             <a class="navbar-brand" href="index.html">
               <!--Modification ALT img-->
               <img src="img/agence-la-panthere-monochrome.svg"
                 alt="lyon web design logo agence web meilleure agence Lyonnaise" height="40" />
             </a>
-            <!--Div à supprimer
-              <div class="keywords" style="color: #cccccc; font-size: 1px">
-                Agence web à paris, stratégie web, web design, illustrations,
-                design de site web, site web, web, internet, site internet, site
-              </div> -->
-            <!--<button
-                id="nav-toggle"
-                input
-                type="submit"
-                class="ui-navbar-toggle navbar-toggle"
-                data-toggle="collapse"
-                data-target=".navbar-1"
-              >
-                <span class="sr-only">Toggle navigation</span
-                ><span class="icon-bar"></span><span class="icon-bar"></span
-                ><span class="icon-bar"></span>
-              </button> -->
+            <!--Div supprimé-->
           </div>
           <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
             <ul class="site-navigation nav navbar-nav">
               <li>
                 <a href="index.html">Accueil</a>
               </li>
-              <!--Suppression balise vide
-                <li></li> -->
               <li>
                 <!--Modifications page2-->
                 <a href="page2.html">Contact</a>
@@ -108,26 +87,27 @@
       <div class="container bloc-lg">
         <div class="row">
           <div class="col-sm-6">
-            <form id="form_1" novalidate success-msg="Your message has been sent."
-              fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+            <!--Modif ARIA-->
+            <form id="form_1">
               <div class="form-group">
-                <label> Nom </label>
-                <input id="name" class="form-control" required />
+                <label aria-labelledby="name"> Nom </label>
+                <input id="name" aria-labelledby="name" class="form-control" required />
               </div>
               <div class="form-group">
-                <label> Adresse email </label>
-                <input id="email" class="form-control" type="email" aria-labelledby="adresse email" required />
+                <label aria-labelledby="email"> Adresse email </label>
+                <input id="email" aria-labelledby="email" class="form-control" type="email" required />
               </div>
               <div class="form-group">
-                <label> Comment nous avez-vous connu ? </label>
-                <input class="form-control" type="email" required id="input_504" />
+                <label aria-labelledby="input_504"> Comment nous avez-vous connu ? </label>
+                <input class="form-control" aria-labelledby="input_504" type="email" required id="input_504" />
               </div>
               <div class="form-group">
-                <label>
+                <label aria-labelledby="message">
                   Brief de votre projet (Ajoutez autant de détails que
                   nécessaire)<br />
                 </label>
-                <textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+                <textarea id="message" aria-labelledby="message" class="form-control" rows="4" cols="50"
+                  required></textarea>
               </div>
               <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
                 Envoyer
@@ -159,20 +139,27 @@
             <p class="text-center white">
               Agence La Panthère - Agence web basée à Lyon.<br />
             </p>
+            <!--Modif social-->
             <div class="row row-no-gutters social">
               <div class="col-sm-3">
                 <div class="text-center">
-                  <a class="social" href="#"><span class="fa fa-twitter icon-md"></span>Twitter</a>
+                  <a class="social" href="#">
+                    <span class="fa fa-twitter icon-md"></span>Twitter
+                  </a>
                 </div>
               </div>
               <div class="col-sm-3">
                 <div class="text-center">
-                  <a class="social" href="https://facebook.com"><span class="fa fa-facebook icon-md"></span>Facebook</a>
+                  <a class="social" href="https://facebook.com">
+                    <span class="fa fa-facebook icon-md"></span>Facebook
+                  </a>
                 </div>
               </div>
               <div class="col-sm-3">
                 <div class="text-center">
-                  <a class="social" href="https://dribbble.com"><span class="fa fa-dribbble icon-md"></span>Dribbble</a>
+                  <a class="social" href="https://dribbble.com">
+                    <span class="fa fa-dribbble icon-md"></span>Dribbble
+                  </a>
                 </div>
               </div>
               <div class="col-sm-3">
@@ -189,6 +176,7 @@
       <!-- Footer - bloc-8 END -->
     </div>
     <!-- Principal conteneur END -->
+  </div>
 </body>
 
 </html>
