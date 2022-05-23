@@ -25,7 +25,6 @@ a:hover {
   cursor: pointer;
 }
 
-
 .bloc {
   width: 100%;
   clear: both;
@@ -107,161 +106,21 @@ a:hover {
   color: #aab4ef;
 }
 
-.d-bloc .icon-round,
-.d-bloc .icon-square,
-.d-bloc .icon-rounded,
-.d-bloc .icon-semi-rounded-a,
-.d-bloc .icon-semi-rounded-b {
-  border-color: rgba(255, 255, 255, 0.9);
+.l-bloc .navbar a {
+  color: #364577;
+  font-weight: bolder;
 }
 
-.d-bloc .divider-h span {
-  border-color: rgba(255, 255, 255, 0.2);
+.l-bloc .navbar a:hover {
+  color: #aab4ef;
 }
 
-.d-bloc .a-btn,
-.d-bloc .navbar a,
-.d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
-  color: white;
-}
-
-.d-bloc .a-btn:hover,
-.d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
-.d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
-  color: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .navbar-toggle .icon-bar {
-  background: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .btn-wire,
-.d-bloc .btn-wire:hover {
-  color: rgba(255, 255, 255, 1);
-  border-color: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .panel {
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.d-bloc .panel button:hover {
-  color: rgba(0, 0, 0, 0.7);
-}
-
-.d-bloc .panel icon {
-  border-color: rgba(0, 0, 0, 0.7);
-}
-
-.d-bloc .panel .divider-h span {
-  border-color: rgba(0, 0, 0, 0.1);
-}
-
-.d-bloc .panel .a-btn {
-  color: rgba(0, 0, 0, 0.6);
-}
-
-.d-bloc .panel .a-btn:hover {
-  color: rgba(0, 0, 0, 1);
-}
-
-.d-bloc .panel .btn-wire,
-.d-bloc .panel .btn-wire:hover {
-  color: rgba(0, 0, 0, 0.7);
-  border-color: rgba(0, 0, 0, 0.3);
-}
-
-.d-bloc .panel,
-.l-bloc {
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.d-bloc .panel button:hover,
-.l-bloc button:hover {
-  color: rgba(0, 0, 0, 0.7);
-}
-
-.l-bloc .icon-round,
-.l-bloc .icon-square,
-.l-bloc .icon-rounded,
-.l-bloc .icon-semi-rounded-a,
-.l-bloc .icon-semi-rounded-b {
-  border-color: rgba(0, 0, 0, 0.7);
-}
-
-.d-bloc .panel .divider-h span,
-.l-bloc .divider-h span {
-  border-color: rgba(0, 0, 0, 0.1);
-}
-
-.d-bloc .panel .a-btn,
-.l-bloc .a-btn,
-.l-bloc .navbar a,
-.l-bloc .navbar-brand,
-.l-bloc a .icon-sm,
-.l-bloc a .icon-md,
-.l-bloc a .icon-lg,
-.l-bloc a .icon-xl,
-.l-bloc h1 a,
-.l-bloc h2 a,
-.l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
-.l-bloc p a {
-  color: rgba(0, 0, 0, 0.6);
-}
-
-.d-bloc .panel .a-btn:hover,
-.l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
-.l-bloc .navbar-brand:hover,
-.l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
-.l-bloc a:hover .icon-lg,
-.l-bloc a:hover .icon-xl,
-.l-bloc h1 a:hover,
-.l-bloc h2 a:hover,
-.l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
-.l-bloc p a:hover {
-  color: rgba(0, 0, 0, 1);
-}
-
-.l-bloc .navbar-toggle .icon-bar {
-  color: rgba(0, 0, 0, 0.6);
-}
-
-.d-bloc .panel .btn-wire,
-.d-bloc .panel .btn-wire:hover,
-.l-bloc .btn-wire,
-.l-bloc .btn-wire:hover {
-  color: rgba(0, 0, 0, 0.7);
-  border-color: rgba(0, 0, 0, 0.3);
+.separation{
+  border: #aab4ef 1px solid;
+  width: 3px;
+  height: 22px;
+  position: relative;
+  top: 7px;
 }
 
 .voffset {
@@ -682,6 +541,10 @@ ul {
   color: white;
 }
 
+.social :hover{
+  color: white;
+}
+
 h2 {
   font-size: 22px;
   line-height: 1.4em;
@@ -809,11 +672,6 @@ h4 {
   border-color: #364577 !important;
 }
 
-.social :hover{
-  color: white;
-}
-
-
 .bg-dots-bg {
   background-image: url("img/dots-bg.png");
   width: auto;
@@ -833,6 +691,8 @@ h4 {
   background-image: url("img/image-de-presentation.webp");
   width: auto;
 }
+
+/*Media Queries*/
 
 @media (max-width: 768px) {
   body {
@@ -864,6 +724,10 @@ h4 {
     justify-content: center;
     align-items: center;
   }
+  .separation{
+    border: white 1px none;
+  
+ }
   .bloc-sm{
     padding-bottom: 0;
   }
