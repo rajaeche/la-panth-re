@@ -463,6 +463,7 @@ ul {
 .col-sm-4 {
   margin-top: 20px;
   font-weight: bold;
+  text-align: center;
 }
 
 .col-sm-4 a:hover{
@@ -524,6 +525,13 @@ ul {
   padding: 10px;
 }
 
+.footer .row {
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
 
 .social {
   max-width: 400px;
@@ -535,6 +543,13 @@ ul {
 
 .social :hover{
   color: white;
+}
+
+.social-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
 }
 
 h2 {
@@ -695,11 +710,6 @@ h4 {
   }
   .mg-md {
     text-align: left;
-  }
-  .social{
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
   }
   .white-end{
   font-size:  14px;
