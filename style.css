@@ -3,6 +3,9 @@
 -Disposition des éléments
 -Marges et padding
 -Media Queries
+
+#F3976C
+#c27956
 */
 
 body {
@@ -16,17 +19,12 @@ body {
 a,
 button {
   transition: all 0.3s ease-in-out;
-  outline: none !important;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: none;
   cursor: pointer;
-}
-
-a:focus {
-  border: black 2px solid;
 }
 
 .bloc {
@@ -107,16 +105,16 @@ a:focus {
 }
 
 .d-bloc button:hover {
-  color: #aab4ef;
+  color: #b25f38;
 }
 
 .l-bloc .navbar a {
-  color: #364577;
+  color: #90421d;
   font-weight: bolder;
 }
 
 .l-bloc .navbar a:hover {
-  color: #aab4ef;
+  color: #b25f38;
 }
 
 .voffset {
@@ -187,9 +185,8 @@ a:focus {
   text-align: inherit;
 }
 
-.nav > li a:focus {
+.nav > li a:hover {
   background: transparent;
-  border: #364577 2px solid;
 }
 
 .navbar-toggle .icon-bar {
@@ -245,14 +242,6 @@ p {
 
 .btn.pull-right {
   margin: 0 0 5px 5px;
-}
-
-.btn-d:focus {
-  border: black 2px solid;
-}
-
-button {
-  outline: none !important;
 }
 
 .btn-rd {
@@ -623,7 +612,7 @@ h4 {
 }
 
 .black-background {
-  background-color: #364577;
+  background-color: #90421d;
 }
 
 .bold-link {
@@ -641,11 +630,11 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-  background-color: #364577;
+  background-color: #90421d;
 }
 
 .bgc-atomic-tangerine {
-  background-color: #364577;
+  background-color: #90421d;
 }
 
 .tc-white {
@@ -654,17 +643,17 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-  background: #364577;
+  background: #90421d;
   color: #ffffff !important;
 }
 
 .btn-atomic-tangerine:hover {
-  background-color: #aab4ef;
+  background-color: #b25f38;
   color: white !important;
 }
 
 .ltc-white {
-  color: #364577 !important;
+  color: #90421d !important;
   background-color: white;
   border-radius: 30px;
   padding: 15px;
@@ -677,16 +666,16 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-  color: #364577 !important;
+  color: #90421d !important;
 }
 
 .ltc-atomic-tangerine:hover {
-  color: #364577 !important;
+  color: #90421d !important;
 }
 
 .icon-dark-slate-blue {
-  color: #364577 !important;
-  border-color: #364577 !important;
+  color: #90421d !important;
+  border-color: #90421d !important;
 }
 
 .bg-dots-bg {
