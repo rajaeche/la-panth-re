@@ -55,6 +55,11 @@ a:hover {
   padding: 20px 50px;
 }
 
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -495,7 +500,6 @@ ul {
   font-size: 20px;
   font-style: italic;
   font-weight: 400;
-  width: 80%;
 }
 
 .h1 {
@@ -507,6 +511,7 @@ ul {
   margin-top: 22px;
   color: #ffffff !important;
   text-transform: uppercase;
+  font-size: 18px;
   padding: 12px 28px 12px 28px;
   border-radius: 25px;
   width: auto;
@@ -585,7 +590,7 @@ h4 {
 .white {
   color: #ffffff !important;
   font-size: 17px;
-  padding: 30 px 100px 0 100px;
+  padding: 30px 100px 0 100px;
 }
 
 .white-end {
@@ -596,7 +601,7 @@ h4 {
 .portfolio-thumb {
   width: 100%;
   margin: auto;
-  padding: 50px 50px 20px 50px;
+  padding: 100px 100px 20px 100px;
 }
 
 .portfolio-row {
@@ -707,9 +712,6 @@ h4 {
   .text-center img {
     width: 100%;
   }
-  .mg-md {
-    text-align: left;
-  }
   .white-end {
     font-size: 14px;
   }
@@ -719,11 +721,11 @@ h4 {
   #bloc-0 {
     position: relative;
   }
-  .navbar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .portfolio-thumb{
+    padding: 50px 0px 5px 0px;
+  }
+  .col-sm-6{
+    padding: 0 20px 0 20px;
   }
   .bloc-sm {
     padding-bottom: 0;
